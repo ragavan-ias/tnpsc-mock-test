@@ -51,7 +51,6 @@ export default function LandingPage() {
           </button>
         </div>
 
-        
         {/* Features Preview */}
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl w-full text-left">
           <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
@@ -71,8 +70,6 @@ export default function LandingPage() {
           </div>
         </div>
       </main>
-
-      
-    </div>
+        </div>
   );
 }
