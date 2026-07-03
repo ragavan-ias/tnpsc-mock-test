@@ -52,26 +52,32 @@ export default function LandingPage() {
           </button>
         </div>
         
-        {/* Features Preview - 3D Hover Cards Added Here */}
+        {/* Features Preview - 3D Hover Cards Wrapped with Links */}
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl w-full text-left">
           
-          <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 transform transition-all duration-500 hover:scale-105 hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(184,50,39,0.2)] hover:border-amber-700/30 cursor-pointer">
-            <div className="text-3xl mb-3">📱</div>
-            <h3 className="font-bold text-gray-900 text-lg mb-2">Mobile Optimized</h3>
-            <p className="text-gray-500">Study anywhere, anytime. Our UI is designed to feel like a native app on your phone.</p>
-          </div>
+          <Link href="/test" className="block">
+            <div className="h-full bg-white p-6 rounded-2xl shadow-sm border border-gray-100 transform transition-all duration-500 hover:scale-105 hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(184,50,39,0.2)] hover:border-amber-700/30 cursor-pointer">
+              <div className="text-3xl mb-3">📱</div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">Mobile Optimized</h3>
+              <p className="text-gray-500">Study anywhere, anytime. Our UI is designed to feel like a native app on your phone.</p>
+            </div>
+          </Link>
           
-          <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 transform transition-all duration-500 hover:scale-105 hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(184,50,39,0.2)] hover:border-amber-700/30 cursor-pointer">
-            <div className="text-3xl mb-3">⏱️</div>
-            <h3 className="font-bold text-gray-900 text-lg mb-2">Smart Timer</h3>
-            <p className="text-gray-500">Practice time management with our strict countdown engine mirroring the real exam.</p>
-          </div>
+          <Link href="/test" className="block">
+            <div className="h-full bg-white p-6 rounded-2xl shadow-sm border border-gray-100 transform transition-all duration-500 hover:scale-105 hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(184,50,39,0.2)] hover:border-amber-700/30 cursor-pointer">
+              <div className="text-3xl mb-3">⏱️</div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">Smart Timer</h3>
+              <p className="text-gray-500">Practice time management with our strict countdown engine mirroring the real exam.</p>
+            </div>
+          </Link>
           
-          <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 transform transition-all duration-500 hover:scale-105 hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(184,50,39,0.2)] hover:border-amber-700/30 cursor-pointer">
-            <div className="text-3xl mb-3">📖</div>
-            <h3 className="font-bold text-gray-900 text-lg mb-2">Detailed Explanations</h3>
-            <p className="text-gray-500">Every answer comes with line-by-line references directly from the school textbooks.</p>
-          </div>
+          <Link href="/test" className="block">
+            <div className="h-full bg-white p-6 rounded-2xl shadow-sm border border-gray-100 transform transition-all duration-500 hover:scale-105 hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(184,50,39,0.2)] hover:border-amber-700/30 cursor-pointer">
+              <div className="text-3xl mb-3">📖</div>
+              <h3 className="font-bold text-gray-900 text-lg mb-2">Detailed Explanations</h3>
+              <p className="text-gray-500">Every answer comes with line-by-line references directly from the school textbooks.</p>
+            </div>
+          </Link>
           
         </div>
       </main>
