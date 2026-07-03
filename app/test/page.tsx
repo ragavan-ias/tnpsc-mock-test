@@ -41,10 +41,11 @@ export default function LandingPage() {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4">
-          <Link href="/test">
-            <button className="bg-blue-600 text-white text-lg px-8 py-4 rounded-full font-extrabold hover:bg-blue-700 hover:shadow-xl hover:-translate-y-1 transition-all w-full sm:w-auto">
-              Start Free Mock Test 🚀
-            </button>
+          <Link 
+            href="/test" 
+            className="bg-blue-600 text-white text-lg px-8 py-4 rounded-full font-extrabold hover:bg-blue-700 hover:shadow-xl hover:-translate-y-1 transition-all w-full sm:w-auto inline-block"
+          >
+            Start Free Mock Test 🚀
           </Link>
           <button className="bg-white text-gray-700 border-2 border-gray-300 text-lg px-8 py-4 rounded-full font-bold hover:bg-gray-50 transition-all w-full sm:w-auto">
             View Syllabus Roadmap
