@@ -7,7 +7,7 @@ export default function LandingPage() {
       {/* Navigation Bar */}
       <nav className="bg-white shadow-sm border-b border-gray-200 py-4 px-6 md:px-12 flex justify-between items-center sticky top-0 z-10">
         <div className="text-2xl font-extrabold text-blue-700 tracking-tighter">
-          TNPSC<span className="text-gray-800">Mocks 2027</span>
+          TNPSC<span className="text-gray-800">Mocks</span>
         </div>
         
         <div className="hidden md:flex space-x-8">
@@ -41,35 +41,41 @@ export default function LandingPage() {
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4">
-          <Link href="/test">
-            <button className="bg-blue-600 text-white text-lg px-8 py-4 rounded-full font-extrabold hover:bg-blue-700 hover:shadow-xl hover:-translate-y-1 transition-all w-full sm:w-auto">
-              Start Free Mock Test 🚀
-            </button>
+          <Link 
+            href="/test" 
+            className="bg-amber-700 text-white text-lg px-8 py-4 rounded-full font-extrabold hover:bg-amber-800 hover:shadow-[0_10px_20px_rgba(180,83,9,0.3)] hover:-translate-y-2 transition-all duration-300 w-full sm:w-auto inline-block"
+          >
+            Start Free Mock Test 🚀
           </Link>
           <button className="bg-white text-gray-700 border-2 border-gray-300 text-lg px-8 py-4 rounded-full font-bold hover:bg-gray-50 transition-all w-full sm:w-auto">
             View Syllabus Roadmap
           </button>
         </div>
-
-        {/* Features Preview */}
+        
+        {/* Features Preview - 3D Hover Cards Added Here */}
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl w-full text-left">
-          <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+          
+          <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 transform transition-all duration-500 hover:scale-105 hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(184,50,39,0.2)] hover:border-amber-700/30 cursor-pointer">
             <div className="text-3xl mb-3">📱</div>
             <h3 className="font-bold text-gray-900 text-lg mb-2">Mobile Optimized</h3>
             <p className="text-gray-500">Study anywhere, anytime. Our UI is designed to feel like a native app on your phone.</p>
           </div>
-          <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+          
+          <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 transform transition-all duration-500 hover:scale-105 hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(184,50,39,0.2)] hover:border-amber-700/30 cursor-pointer">
             <div className="text-3xl mb-3">⏱️</div>
             <h3 className="font-bold text-gray-900 text-lg mb-2">Smart Timer</h3>
             <p className="text-gray-500">Practice time management with our strict countdown engine mirroring the real exam.</p>
           </div>
-          <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100">
+          
+          <div className="bg-white p-6 rounded-2xl shadow-sm border border-gray-100 transform transition-all duration-500 hover:scale-105 hover:-translate-y-3 hover:shadow-[0_20px_40px_rgba(184,50,39,0.2)] hover:border-amber-700/30 cursor-pointer">
             <div className="text-3xl mb-3">📖</div>
             <h3 className="font-bold text-gray-900 text-lg mb-2">Detailed Explanations</h3>
             <p className="text-gray-500">Every answer comes with line-by-line references directly from the school textbooks.</p>
           </div>
+          
         </div>
       </main>
-        </div>
+      
+    </div>
   );
 }
