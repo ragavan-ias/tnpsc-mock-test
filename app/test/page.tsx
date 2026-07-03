@@ -43,7 +43,7 @@ export default function LandingPage() {
         <div className="flex flex-col sm:flex-row gap-4">
           <Link 
             href="/test" 
-            className="bg-amber-700 text-white text-lg px-8 py-4 rounded-full font-extrabold hover:bg-amber-800 hover:shadow-[0_10px_20px_rgba(180,83,9,0.3)] hover:-translate-y-2 transition-all duration-300 w-full sm:w-auto inline-block"
+            className="bg-blue-600 text-white text-lg px-8 py-4 rounded-full font-extrabold hover:bg-blue-700 hover:shadow-xl hover:-translate-y-1 transition-all w-full sm:w-auto inline-block"
           >
             Start Free Mock Test 🚀
           </Link>
