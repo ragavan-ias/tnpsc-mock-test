@@ -7,7 +7,7 @@ export default function LandingPage() {
       {/* Navigation Bar */}
       <nav className="bg-white shadow-sm border-b border-gray-200 py-4 px-6 md:px-12 flex justify-between items-center sticky top-0 z-10">
         <div className="text-2xl font-extrabold text-blue-700 tracking-tighter">
-          TNPSC<span className="text-gray-800">Mocks</span>
+          TNPSC<span className="text-gray-800">Mocks 2027</span>
         </div>
         
         <div className="hidden md:flex space-x-8">
@@ -50,7 +50,7 @@ export default function LandingPage() {
             View Syllabus Roadmap
           </button>
         </div>
-        
+
         
         {/* Features Preview */}
         <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl w-full text-left">
