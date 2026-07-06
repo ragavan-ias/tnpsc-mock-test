@@ -78,11 +78,8 @@ export default function LandingPage() {
               <p className="text-gray-500">Every answer comes with line-by-line references directly from the school textbooks.</p>
             </div>
           </Link>
-          
-          
-        </div>
+          </div>
       </main>
-      
-    </div>
+      </div>
   );
 }
